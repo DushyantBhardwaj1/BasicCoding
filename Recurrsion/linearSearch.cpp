@@ -8,9 +8,10 @@ int main(){
     cin>>var;
     for(int i=0; i<n; i++){
         if(arr[i]==var){
-            cout<<"Found at the location "<<i;
+            cout<<"Found at the location "<<i+1;
             return 0;
         }
     }
+    cout<<" not Found";
     return 0;
 }
